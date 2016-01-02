@@ -1,5 +1,5 @@
 -  this project plays with deployable container images
--  create a Docker file with contents below
+-  create a Dockerfile in this github repo with the contents below
 ```bash
 FROM centos
 ENTRYPOINT top
