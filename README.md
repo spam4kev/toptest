@@ -6,8 +6,9 @@ ENTRYPOINT top
 ```
 -  build the container and manually run an instance based on it. then clean up.
 ```bash
-docker build --name toptest .
+docker build -t toptest .
 docker run --name runtoptest -i -t toptest
+CTRL+P CTRL+Q
 docker rm runtoptest
 docker rmi toptest
 ```
